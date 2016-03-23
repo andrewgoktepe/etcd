@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/version"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/version"
 )
 
 func TestDecideClusterVersion(t *testing.T) {

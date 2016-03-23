@@ -31,15 +31,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdhttp"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
+	"gopkg.in/andrewgoktepe/etcd.v2/client"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/transport"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/rafthttp"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
 )
 
 const (

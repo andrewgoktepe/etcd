@@ -23,12 +23,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/pkg", "netutil")
+	plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2/pkg", "netutil")
 
 	// indirection for testing
 	resolveTCPAddr = net.ResolveTCPAddr

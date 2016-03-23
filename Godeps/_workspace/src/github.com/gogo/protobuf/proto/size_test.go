@@ -36,9 +36,9 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	proto3pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	. "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	proto3pb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 var messageWithExtension1 = &pb.MyMessage{Count: Int32(7)}

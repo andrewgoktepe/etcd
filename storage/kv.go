@@ -3,7 +3,7 @@ package storage
 import (
 	"io"
 
-	"github.com/coreos/etcd/storage/storagepb"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/storagepb"
 )
 
 type KV interface {

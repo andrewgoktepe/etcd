@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/ugorji/go/codec"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/pkg/pathutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/ugorji/go/codec"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pathutil"
 )
 
 const (

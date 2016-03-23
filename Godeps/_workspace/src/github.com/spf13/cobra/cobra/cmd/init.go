@@ -18,7 +18,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/spf13/cobra"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
 

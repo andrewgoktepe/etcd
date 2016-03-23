@@ -41,7 +41,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/trace"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/trace"
 )
 
 // EnableTracing controls whether to trace RPCs using the golang.org/x/net/trace package.

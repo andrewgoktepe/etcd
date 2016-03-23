@@ -17,13 +17,13 @@ It has these top-level messages:
 */
 package routeguide
 
-import proto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+import proto "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
 import (
-	context "github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	grpc "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	context "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	grpc "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

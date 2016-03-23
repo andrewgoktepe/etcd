@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/coreos/etcd/raft/raftpb"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
 )
 
 // TODO(xiangli): Test panic cases

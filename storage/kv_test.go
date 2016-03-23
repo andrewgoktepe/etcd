@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/storage/storagepb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/storagepb"
 )
 
 // Functional tests for features implemented in v3 store. It treats v3 store

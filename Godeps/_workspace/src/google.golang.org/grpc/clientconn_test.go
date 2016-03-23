@@ -37,7 +37,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/credentials"
 )
 
 const tlsDir = "testdata/"

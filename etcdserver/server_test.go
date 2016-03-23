@@ -24,15 +24,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/store"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/idutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/store"
 )
 
 // TestDoLocalAction tests requests which do not need to go through raft to be applied,

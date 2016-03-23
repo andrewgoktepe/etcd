@@ -15,9 +15,9 @@
 package v3rpc
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/etcdserver"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
 )
 
 type handler struct {

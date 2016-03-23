@@ -8,7 +8,7 @@ package client
 import (
 	"errors"
 	"fmt"
-	codec1978 "github.com/coreos/etcd/Godeps/_workspace/src/github.com/ugorji/go/codec"
+	codec1978 "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/ugorji/go/codec"
 	"reflect"
 	"runtime"
 	time "time"

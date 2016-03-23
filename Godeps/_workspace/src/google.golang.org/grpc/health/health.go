@@ -5,10 +5,10 @@ package health
 import (
 	"sync"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	healthpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/health/grpc_health_v1alpha"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	healthpb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/health/grpc_health_v1alpha"
 )
 
 type HealthServer struct {

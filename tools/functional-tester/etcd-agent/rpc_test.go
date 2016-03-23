@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	"gopkg.in/andrewgoktepe/etcd.v2/tools/functional-tester/etcd-agent/client"
 )
 
 func init() {

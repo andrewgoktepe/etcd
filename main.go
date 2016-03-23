@@ -23,7 +23,7 @@
 
 package main
 
-import "github.com/coreos/etcd/etcdmain"
+import "gopkg.in/andrewgoktepe/etcd.v2/etcdmain"
 
 func main() {
 	etcdmain.Main()

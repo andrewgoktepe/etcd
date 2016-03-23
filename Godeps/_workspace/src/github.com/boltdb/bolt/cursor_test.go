@@ -9,7 +9,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 // Ensure that a cursor can return a reference to the bucket that created it.

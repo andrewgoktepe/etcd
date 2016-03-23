@@ -21,13 +21,13 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/snap"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal/walpb"
 )
 
 func main() {

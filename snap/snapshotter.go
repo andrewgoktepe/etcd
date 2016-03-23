@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap/snappb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/snap/snappb"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 )
 
 const (
@@ -38,7 +38,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "snap")
+	plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2", "snap")
 
 	ErrNoSnapshot    = errors.New("snap: no available snapshot")
 	ErrEmptySnapshot = errors.New("snap: empty snapshot")

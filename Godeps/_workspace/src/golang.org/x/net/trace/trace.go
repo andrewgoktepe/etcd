@@ -77,8 +77,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/internal/timeseries"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/internal/timeseries"
 )
 
 // DebugUseAfterFinish controls whether to debug uses of Trace values after finishing.

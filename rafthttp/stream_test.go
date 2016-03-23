@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/version"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/stats"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/version"
 )
 
 // TestStreamWriterAttachOutgoingConn tests that outgoingConn can be attached

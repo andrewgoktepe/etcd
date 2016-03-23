@@ -28,8 +28,8 @@ import (
 
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	"github.com/coreos/etcd/pkg/httputil"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp/httptypes"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/httputil"
 )
 
 // Hop-by-hop headers. These are removed when sent to the backend.

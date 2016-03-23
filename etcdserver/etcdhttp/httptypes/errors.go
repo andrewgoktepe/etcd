@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/etcdserver/etcdhttp", "httptypes")
+	plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp", "httptypes")
 )
 
 type HTTPError struct {

@@ -38,10 +38,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/trace"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/trace"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/transport"
 )
 
 // recvResponse receives and parses an RPC response.

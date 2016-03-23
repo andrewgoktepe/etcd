@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
 )
 
 func BenchmarkWrite100EntryWithoutBatch(b *testing.B) { benchmarkWriteEntry(b, 100, 0) }

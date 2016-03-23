@@ -24,8 +24,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/store"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/store"
 )
 
 var (

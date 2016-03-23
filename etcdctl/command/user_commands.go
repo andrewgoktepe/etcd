@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/client"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/bgentry/speakeasy"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"gopkg.in/andrewgoktepe/etcd.v2/client"
 )
 
 func NewUserCommands() cli.Command {

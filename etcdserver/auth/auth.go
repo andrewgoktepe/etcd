@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/crypto/bcrypt"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcderr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/crypto/bcrypt"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	etcderr "gopkg.in/andrewgoktepe/etcd.v2/error"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
 )
 
 const (
@@ -46,7 +46,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/etcdserver", "auth")
+	plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2/etcdserver", "auth")
 )
 
 var rootRole = Role{

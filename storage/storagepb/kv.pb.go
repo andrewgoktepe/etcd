@@ -17,7 +17,7 @@ package storagepb
 import (
 	"fmt"
 
-	proto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	proto "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 )
 
 import math "math"

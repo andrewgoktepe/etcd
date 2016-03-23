@@ -20,8 +20,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/fileutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
 )
 
 var (

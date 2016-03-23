@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
 )
 
 // TestURLPickerPickTwice tests that pick returns a possible url,

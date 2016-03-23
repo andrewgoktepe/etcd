@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/pkg/pathutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"gopkg.in/andrewgoktepe/etcd.v2/client"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pathutil"
 )
 
 func NewRoleCommands() cli.Command {

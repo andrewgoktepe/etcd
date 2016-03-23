@@ -3,7 +3,7 @@ package sanitized_anchor_name_test
 import (
 	"fmt"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/shurcooL/sanitized_anchor_name"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/shurcooL/sanitized_anchor_name"
 )
 
 func ExampleCreate() {

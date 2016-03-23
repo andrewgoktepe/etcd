@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/sys/unix"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/sys/unix"
 )
 
 func testSetGetenv(t *testing.T, key, value string) {

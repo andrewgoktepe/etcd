@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	etcdErr "github.com/coreos/etcd/error"
+	etcdErr "gopkg.in/andrewgoktepe/etcd.v2/error"
 )
 
 var (

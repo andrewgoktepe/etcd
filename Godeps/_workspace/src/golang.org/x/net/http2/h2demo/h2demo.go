@@ -29,7 +29,7 @@ import (
 
 	"camlistore.org/pkg/googlestorage"
 	"camlistore.org/pkg/singleflight"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/http2"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/http2"
 )
 
 var (

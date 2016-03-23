@@ -15,10 +15,10 @@ It has these top-level messages:
 */
 package proto3_proto
 
-import proto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+import proto "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import testdata "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+import testdata "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

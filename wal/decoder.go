@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/coreos/etcd/pkg/crc"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/wal/walpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/crc"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal/walpb"
 )
 
 type decoder struct {

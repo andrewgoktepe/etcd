@@ -19,8 +19,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/wal/walpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/fileutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal/walpb"
 )
 
 // Repair tries to repair the unexpectedEOF error in the

@@ -13,7 +13,7 @@
 
 package prometheus
 
-import "github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/procfs"
+import "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/prometheus/procfs"
 
 type processCollector struct {
 	pid             int

@@ -9,7 +9,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/akrennmair/gopcap"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/akrennmair/gopcap"
 )
 
 var input *string = flag.String("input", "", "input file")

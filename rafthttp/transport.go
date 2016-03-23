@@ -19,16 +19,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/xiang90/probing"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/xiang90/probing"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/stats"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "rafthttp")
+var plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2", "rafthttp")
 
 type Raft interface {
 	Process(ctx context.Context, m raftpb.Message) error

@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"path"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcderr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	etcderr "gopkg.in/andrewgoktepe/etcd.v2/error"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
 )
 
 func (s *store) ensureAuthDirectories() error {

@@ -19,14 +19,14 @@ import (
 	"os"
 	"path"
 
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/version"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/snap"
+	"gopkg.in/andrewgoktepe/etcd.v2/version"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal/walpb"
 )
 
 type Storage interface {

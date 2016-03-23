@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coreos/etcd/pkg/fileutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/fileutil"
 )
 
 var (

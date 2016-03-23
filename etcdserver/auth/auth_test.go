@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/crypto/bcrypt"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcderr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	etcdstore "github.com/coreos/etcd/store"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/crypto/bcrypt"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	etcderr "gopkg.in/andrewgoktepe/etcd.v2/error"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	etcdstore "gopkg.in/andrewgoktepe/etcd.v2/store"
 )
 
 const testTimeout = time.Millisecond

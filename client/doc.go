@@ -20,7 +20,7 @@ Create a Config and exchange it for a Client:
 	import (
 		"net/http"
 
-		"github.com/coreos/etcd/client"
+		"gopkg.in/andrewgoktepe/etcd.v2/client"
 		"golang.org/x/net/context"
 	)
 

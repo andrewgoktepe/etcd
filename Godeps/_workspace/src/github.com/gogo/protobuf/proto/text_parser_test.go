@@ -36,9 +36,9 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	proto3pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	. "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	proto3pb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
+	. "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 type UnmarshalTextTest struct {

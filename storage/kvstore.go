@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/storage/backend"
-	"github.com/coreos/etcd/storage/storagepb"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/backend"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/storagepb"
 )
 
 var (

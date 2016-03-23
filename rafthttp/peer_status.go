@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
 )
 
 type failureType struct {

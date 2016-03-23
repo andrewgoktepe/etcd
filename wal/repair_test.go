@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/wal/walpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal/walpb"
 )
 
 func TestRepair(t *testing.T) {

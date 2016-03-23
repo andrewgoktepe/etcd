@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
 )
 
 func TestNetworkDrop(t *testing.T) {

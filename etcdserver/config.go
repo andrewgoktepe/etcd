@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/netutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
 )
 
 // ServerConfig holds the configuration of etcd as taken from the command line or discovery.

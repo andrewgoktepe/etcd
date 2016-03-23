@@ -17,10 +17,10 @@ package command
 import (
 	"fmt"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
 )
 
 // NewDeleteRangeCommand returns the CLI command for "deleteRange".

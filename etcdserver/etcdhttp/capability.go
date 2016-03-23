@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp/httptypes"
 )
 
 type capability string

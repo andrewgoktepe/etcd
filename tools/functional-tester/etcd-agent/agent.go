@@ -22,8 +22,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/netutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/tools/functional-tester/etcd-agent/client"
 )
 
 const (

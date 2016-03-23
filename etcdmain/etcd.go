@@ -27,31 +27,31 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/daemon"
-	systemdutil "github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/util"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/etcdserver/etcdhttp"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/fileutil"
-	pkgioutil "github.com/coreos/etcd/pkg/ioutil"
-	"github.com/coreos/etcd/pkg/osutil"
-	runtimeutil "github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/proxy"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/version"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/go-systemd/daemon"
+	systemdutil "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/go-systemd/util"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc"
+	"gopkg.in/andrewgoktepe/etcd.v2/discovery"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/api/v3rpc"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/cors"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/fileutil"
+	pkgioutil "gopkg.in/andrewgoktepe/etcd.v2/pkg/ioutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/osutil"
+	runtimeutil "gopkg.in/andrewgoktepe/etcd.v2/pkg/runtime"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/transport"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/proxy"
+	"gopkg.in/andrewgoktepe/etcd.v2/rafthttp"
+	"gopkg.in/andrewgoktepe/etcd.v2/version"
 )
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2", "etcdmain")
 
 const (
 	// the owner can make/remove files inside the directory
@@ -537,7 +537,7 @@ func setupLogging(cfg *config) {
 		capnslog.SetGlobalLogLevel(capnslog.DEBUG)
 	}
 	if cfg.logPkgLevels != "" {
-		repoLog := capnslog.MustRepoLogger("github.com/coreos/etcd")
+		repoLog := capnslog.MustRepoLogger("gopkg.in/andrewgoktepe/etcd.v2")
 		settings, err := repoLog.ParseLogLevelConfig(cfg.logPkgLevels)
 		if err != nil {
 			plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

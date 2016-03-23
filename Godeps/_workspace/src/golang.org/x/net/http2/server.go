@@ -56,7 +56,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/http2/hpack"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/http2/hpack"
 )
 
 const (

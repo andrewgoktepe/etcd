@@ -45,16 +45,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/health"
-	healthpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/health/grpc_health_v1alpha"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/peer"
-	testpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/test/grpc_testing"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/credentials"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/health"
+	healthpb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/health/grpc_health_v1alpha"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/metadata"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/peer"
+	testpb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/test/grpc_testing"
 )
 
 var (

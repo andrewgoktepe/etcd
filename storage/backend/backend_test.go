@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
-	"github.com/coreos/etcd/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
 )
 
 var tmpPath string

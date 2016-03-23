@@ -21,13 +21,13 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/idutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/snap"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal/walpb"
 )
 
 func NewBackupCommand() cli.Command {

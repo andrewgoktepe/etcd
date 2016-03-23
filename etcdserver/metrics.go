@@ -17,8 +17,8 @@ package etcdserver
 import (
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
-	"github.com/coreos/etcd/pkg/runtime"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/runtime"
 )
 
 var (

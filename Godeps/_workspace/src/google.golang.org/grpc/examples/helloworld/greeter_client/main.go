@@ -37,9 +37,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/examples/helloworld/helloworld"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/examples/helloworld/helloworld"
 )
 
 const (

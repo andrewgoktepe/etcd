@@ -19,7 +19,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 var (

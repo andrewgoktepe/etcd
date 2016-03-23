@@ -20,7 +20,7 @@ import (
 	"time"
 	"unsafe"
 )
-import "github.com/coreos/etcd/Godeps/_workspace/src/github.com/stretchr/testify/assert"
+import "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/stretchr/testify/assert"
 
 func TestNodeExternClone(t *testing.T) {
 	var eNode *NodeExtern

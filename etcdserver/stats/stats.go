@@ -14,10 +14,10 @@
 
 package stats
 
-import "github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+import "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/etcdserver", "stats")
+	plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2/etcdserver", "stats")
 )
 
 type Stats interface {

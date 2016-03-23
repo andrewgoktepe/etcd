@@ -20,10 +20,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/auth"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	"github.com/coreos/etcd/pkg/netutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/auth"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp/httptypes"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/netutil"
 )
 
 type authHandler struct {

@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	dto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	dto "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 )
 
 func testTextParse(t testing.TB) {

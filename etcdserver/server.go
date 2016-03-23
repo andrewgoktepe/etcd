@@ -26,28 +26,28 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/timeutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/pkg/wait"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/snap"
-	dstorage "github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/store"
-	"github.com/coreos/etcd/version"
-	"github.com/coreos/etcd/wal"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/discovery"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdhttp/httptypes"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/etcdserver/stats"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/fileutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/idutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/pbutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/runtime"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/timeutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/wait"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/rafthttp"
+	"gopkg.in/andrewgoktepe/etcd.v2/snap"
+	dstorage "gopkg.in/andrewgoktepe/etcd.v2/storage"
+	"gopkg.in/andrewgoktepe/etcd.v2/store"
+	"gopkg.in/andrewgoktepe/etcd.v2/version"
+	"gopkg.in/andrewgoktepe/etcd.v2/wal"
 )
 
 const (
@@ -64,7 +64,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver")
+	plog = capnslog.NewPackageLogger("gopkg.in/andrewgoktepe/etcd.v2", "etcdserver")
 
 	storeMemberAttributeRegexp = regexp.MustCompile(path.Join(storeMembersPrefix, "[[:xdigit:]]{1,16}", attributesSuffix))
 )

@@ -17,11 +17,11 @@ package etcdserver
 import (
 	"bytes"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	dstorage "github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/storage/storagepb"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/etcdserver/etcdserverpb"
+	dstorage "gopkg.in/andrewgoktepe/etcd.v2/storage"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/storagepb"
 )
 
 type V3DemoServer interface {

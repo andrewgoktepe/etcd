@@ -17,7 +17,7 @@ package httptypes
 import (
 	"encoding/json"
 
-	"github.com/coreos/etcd/pkg/types"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/types"
 )
 
 type Member struct {

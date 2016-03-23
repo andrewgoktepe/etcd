@@ -40,11 +40,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/trace"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/trace"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/metadata"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/transport"
 )
 
 type streamHandler func(srv interface{}, stream ServerStream) error

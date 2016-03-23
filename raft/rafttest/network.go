@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"gopkg.in/andrewgoktepe/etcd.v2/raft/raftpb"
 )
 
 // a network interface

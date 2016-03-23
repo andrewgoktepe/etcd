@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/coreos/etcd",
+	"ImportPath": "gopkg.in/andrewgoktepe/etcd.v2",
 	"GoVersion": "go1.5.1",
 	"Packages": [
 		"./..."

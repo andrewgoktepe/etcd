@@ -39,10 +39,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 
-	proto3pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	proto3pb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
+	pb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 // textMessage implements the methods that allow it to marshal and unmarshal

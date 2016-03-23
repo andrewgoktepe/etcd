@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/storage/backend"
-	"github.com/coreos/etcd/storage/storagepb"
+	"gopkg.in/andrewgoktepe/etcd.v2/pkg/testutil"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/backend"
+	"gopkg.in/andrewgoktepe/etcd.v2/storage/storagepb"
 )
 
 func TestStorePut(t *testing.T) {

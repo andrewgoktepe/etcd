@@ -39,11 +39,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	perfpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/test/codec_perf"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/golang.org/x/net/context"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	perfpb "gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/test/codec_perf"
+	"gopkg.in/andrewgoktepe/etcd.v2/Godeps/_workspace/src/google.golang.org/grpc/transport"
 )
 
 func TestSimpleParsing(t *testing.T) {
